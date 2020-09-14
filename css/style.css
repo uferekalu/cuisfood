@@ -165,3 +165,12 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
   margin-left: 20px;
   color: white;
 }
+.dot{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: small;
+  color: white;
+
+}

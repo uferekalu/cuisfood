@@ -160,3 +160,8 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 .item  h2{font-size:30px;}
 .item .carousel-desc p{width:100%;}
 }
+.bottom-left {
+  margin-top: -35px;
+  margin-left: 20px;
+  color: white;
+}

@@ -172,5 +172,11 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
   text-align: center;
   font-size: small;
   color: white;
-
+}
+.popular-text{
+  text-align: center;
+  margin: auto;
+  color: white;
+  padding-top: 10px;
+  
 }

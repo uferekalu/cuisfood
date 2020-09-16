@@ -378,3 +378,90 @@ list-style: none;
 margin-left: -10px;
 font-size: 16px;
 }
+.login {
+  background: rgba(0, 0, 0, 0.6) url(../images/achara.jpg);
+  height: 800px;
+}
+#divLogin{
+  background-color: white; 
+  margin-top: 50px;
+  
+  width: 1152px;
+  height: 654px; 
+}
+.login-header {
+  margin-top: 50px;
+  text-align: center;
+}
+.welcome{
+  margin-top: 5px;
+  font-family: Open Sans;
+font-style: normal;
+
+font-size: 10px;
+}
+.justify-content-center{
+  padding-top: 20px;
+}
+#password-form4-1{
+  border-radius: 30px;
+  width: 75%; 
+  margin: auto; 
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.15);
+}
+#email-form4-1{
+  border-radius: 20px; 
+  width: 75%; 
+  margin: auto; 
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.15);
+}
+.forgot-password{
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: Open Sans;
+font-style: italic;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+}
+.login-btn{
+  margin-bottom: 30px;
+  text-align: center;
+  width: 75%; 
+  margin: auto; 
+  background: #9ACD32; 
+  border-radius: 30px;
+}
+#btnLogin {
+  background-color: #9ACD32;
+  color: white;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+.continue-google{
+  margin-bottom: 30px;
+  text-align: center;
+  width: 75%; 
+  margin: auto; 
+  background: black; 
+  border-radius: 30px;
+}
+#continueGoogle {
+  background: black; 
+  color: white;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+}
+.have-no-account{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+text-align: center;
+}

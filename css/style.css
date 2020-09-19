@@ -472,3 +472,144 @@ font-weight: 600;
 font-size: 14px;
 text-align: center;
 }
+#divSearch{
+  margin-top: 40px;
+  width: 1135px;
+  height: 45px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 60px;
+}
+#searchResult {
+  margin-top: 10px;
+}
+#beansImage, #yamImage{
+  margin-top:30px;
+}
+.bottom-left{
+  margin-top: -35px; 
+  margin-right: 2px;
+  text-transform: uppercase;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+}
+#ingredients{
+  margin-top: 10px;
+  border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 60px;
+}
+#carb, #melon, #spices, #spices1{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+  text-align: center;
+  font-size: small;
+  margin-right: 10px;
+  width: 100px;
+height: 45px;
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 60px;
+}
+#text_carb{
+  margin-top: 9px;
+}
+.all-results{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+}
+#order-name{
+  margin-top: 28px;
+  margin-right: 15px;
+  height: 178px;
+  background: #9ACD32;  
+}
+#my-order{
+  margin-top: 28px;
+  height: 178px;
+  background: #C4C4C4;
+  float: right;
+}
+.profile{
+  margin-left: 1px;
+  margin-top:47px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background:  #C4C4C4;
+  border: 2px solid white;
+}
+
+#orderHead{
+  margin-left: 50px;
+  margin-top: 65px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+}
+#orderCart{
+  margin-right: 20px;
+}
+
+#orderName{
+  
+  height: 178px;
+  margin-right: 15px;
+ background: #9ACD32;  
+}
+#orderDiv{
+
+  height: 178px;
+  background:  #C4C4C4;
+}
+.row{
+  margin: auto;
+}
+#orderHeader{
+  margin-right: 15px;
+  height: 80px;
+  background:  #C4C4C4;
+}
+#orderInfo{
+  height: 90px;
+  background:  #C4C4C4;
+}
+.order-text{
+  margin-top: 65px;
+  margin-left: 20px;
+}
+#cartIcon{
+  margin-right: 20px;
+}
+#orderText{
+  margin-top: 20px;
+  margin-left:5px;
+  font-size: small;
+}
+.order-info, .start-shopping{
+  text-align: center;
+  font-weight: bold;
+}
+.btn-shop{
+  width: 342px;
+height: 64px;
+}
+#btnShop{
+  background: #9ACD32;   
+}
+#orderIcon{
+  color: black;
+}
+#ingredients{
+  padding-left:50px;
+}
+#searchIcon{
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 20px;
+}

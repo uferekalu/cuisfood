@@ -28,7 +28,7 @@
      <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="#">
             Food<b>Cuisine</b>
           </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
                 </a>
           </li>
           <li class="nav-item mr-4 mt-2">
-            <a class="nav-link" href="index.html"><i id="fontAwesome" class='fas fa-home'></i></a>
+            <a class="nav-link" href="#"><i id="fontAwesome" class='fas fa-home'></i></a>
           </li>
           <li class="nav-item mr-4 mt-2">
             <a class="nav-link" href="order.html"><i id="fontAwesome" class="fas fa-shopping-cart"></i></a>    
@@ -61,72 +61,76 @@
       </div>
     </div>
   </nav>
-  <section class="orders">
-    <div id="container" class="container-fluid">
-        <div class="row ml-5">
-            <div id="orderName"" class="col-4">
-                    <div class="profile"></div>
-            </div>
-            <div id="orderDiv" class="col-7">
-                <p class="order-text"><i id="cartIcon" class="fas fa-shopping-cart"></i>MY ORDERS</p>
-            </div>
-        </div>
-        <div class="row ml-5">
-            <div id="orderHeader"" class="col-4">
-                    <p class="" id="orderText"><i id="orderIcon" class="fas fa-shopping-cart mr-2"></i>MY ORDERS</p>
-            </div>
-            <div id="orderInfo" class="col-7">
+  <section class="detail">
+      <div class="container">
+          <div class="row">
+              <div class="col-4">
+                <div class="detail-head"><div class="profile ml-2">
+                    
+                </div><p class="my-detail-head">UFERE<br>PEACE</p></div>
                 
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText"><a href="detail.html">MY DETAILS</a> </p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText"><a href="address.html">ADDRESS BOOK</a></p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText">PAYMENT METHODS</p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                <p class="order-info">YOU CURRENTLY HAVE NO ORDERS<br>All currently ongoing and verified orders would be here...
-                <br><a id="btnShop" class="btn btn-info" href="">START SHOPPING</a></p>
-                
-
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText">GIFT CARDS</p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText"><a href="myorder.html">TRACK MY ORDER</a></p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                
-            </div>
-            <div id="orderHeader"" class="col-4 mt-2">
-                    <p class="" id="orderText">FREQUENTLY ASKED QUESTIONS</p>
-            </div>
-            <div id="orderInfo" class="col-7">
-                
-            </div>
-
-        </div>
-    
-        
-        
-    
-        
-    </div>
+              </div>
+              <div class="col-7">
+                <div class="personal-head">
+                    
+                        <h3 class="my-detail">MY DETAILS</h3>
+                        <p class="my-detail-info">Feel free to edit any of your details below so your FoodCuisine account is totally up to date</p>
+                    
+                </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-4">
+                <div class="detail-info1"><p id="detailText"><a href="">MY ORDERS</a></p></div>
+                <div class="detail-info"><p id="detailText"><a href="">MY DETAILS</a></div>
+                <div class="detail-info"><p id="detailText"><a href="address.html">ADDRESS BOOK</a></div>
+                <div class="detail-info"><p id="detailText"><a href="">PAYMENT METHODS</a></div>
+                <div class="detail-info"><p id="detailText"><a href="">GIFT CARDS</a></div>
+                <div class="detail-info"><p id="detailText"><a href="">TRACK MY ORDER</a></div>
+                <div class="detail-info"><p id="detailText"><a href="">FREQUENTLY ASKED QUESTIONS</a></div>
+              </div>
+              <div class="col-7">
+                <div class="personal-detail">
+                    <div class="row">
+                        <div class="col-4">
+                            FIRST NAME:
+                            <input id="inputField" placeholder="Ufere" type="text" class="form-control" name="name" data-form-field="name" required="" id="search-form4-1">
+                        </div>
+                        <div class="col-4 ml-5">
+                            MIDDLE NAME:
+                            <input id="inputField" placeholder="Peace" type="text" class="form-control" name="name" data-form-field="name" required="" id="search-form4-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            LAST NAME:
+                            <input id="inputField" placeholder="Kalu" type="text" class="form-control" name="name" data-form-field="name" required="" id="search-form4-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            EMAIL ADDRESS:
+                            <input id="inputFieldEmail" placeholder="uferepeace@gmail.com" type="text" class="form-control" name="search" data-form-field="search" required="" id="search-form4-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            PHONE NUMBER:
+                            <input id="inputFieldEmail" placeholder="+2347032936214" type="text" class="form-control" name="search" data-form-field="search" required="" id="search-form4-1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            CHANGE PASSWORD:
+                            <input id="inputFieldEmail" placeholder="************" type="Password" class="form-control" name="search" data-form-field="search" required="" id="search-form4-1">
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
   </section>
-
+  
   <section class="black-box">
     <div class="container">
       <div class="row">

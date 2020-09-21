@@ -313,7 +313,7 @@ width: 1128px;
 height: 264px;;
 }
 .black-box {
-margin-top: 30px; 
+ 
 background: black; 
 height: 138px;
 }
@@ -536,6 +536,7 @@ font-size: 12px;
   float: right;
 }
 .profile{
+  position: absolute;
   margin-left: 1px;
   margin-top:47px;
   width: 60px;
@@ -612,4 +613,94 @@ height: 64px;
   position: absolute;
   margin-left: 20px;
   margin-top: 20px;
+}
+.detail-info{
+  margin-top:22px;
+  height: 80px;
+  background:  #C4C4C4;
+}
+.detail-info1{
+  height: 80px;
+  background:  #C4C4C4;
+}
+.personal-detail{
+  height: 692px;
+  background:  #C4C4C4;
+}
+.detail-head{
+  height: 178px;
+  background: #9ACD32;
+}
+.personal-head{
+  
+  height: 178px;
+  background:  #C4C4C4;
+}
+.my-detail{
+  font-size: small;
+  padding-top: 30px;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+  margin-left: 60px;
+}.my-detail-info{
+  margin-left: 60px;
+  font-size: small;
+}
+.my-detail-head{
+  margin-left: 70px;
+  font-size: small;
+  padding-top: 50px;
+  position: absolute;
+  color: white;
+}
+#detailText{
+  font-family: Open Sans;
+font-style: normal;
+  padding:20px;
+  margin-left: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+#inputField, #addressInput{
+  padding-left: 20px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+#inputFieldEmail{
+  padding-left: 20px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 0px;
+}
+#inputFieldBox {
+  width: 400px;
+  height: 124px;
+}
+#addressHead{
+  padding-top: 30px;
+  padding-left: 20px;
+  font-size: small;
+  font-weight: bold;
+}
+#address{
+  margin-left: 20px;
+  font-size: small;
+  font-weight: bold;
+ 
+}
+#addressInput{
+  margin-left: 20px;
+}
+.order-head{
+  height: 892px;
+  background:  #C4C4C4;
+}
+.detail-info-order{
+  margin-top: 22px;
+  height: 80px;
+  background:  #C4C4C4;
 }
